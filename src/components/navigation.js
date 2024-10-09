@@ -32,7 +32,7 @@ function Navigation() {
             Contact Us
         </li>
         <li className='cursor-pointer relative group hover:bg-white hover:text-green-600 hover:rounded-lg'>
-            Services
+            Wot
         </li>
       </ul>
     </div>
