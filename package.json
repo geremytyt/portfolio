@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "cp -r build/* ./ && git add . && git commit -m 'Update build' && git push origin master"
+    "deploy": "xcopy build\\* . /E /H /C /I && git add . && git commit -m 'Update build' && git push origin master"
   },
   "eslintConfig": {
     "extends": [

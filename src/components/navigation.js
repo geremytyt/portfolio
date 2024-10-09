@@ -20,7 +20,7 @@ function Navigation() {
 
     <div className='px-2 flex justify-between items-center w-full h-full'>
       <div className='flex items-center'>
-      <h1 className='text-3xl font-bold text-black mr-4 sm:text-4xl'>Websites.</h1>
+      <h1 className='text-3xl font-bold text-black mr-4 sm:text-4xl'>Portfolio</h1>
       <ul className='hidden text-black md:flex'>
         <li className='cursor-pointer hover:bg-white hover:text-green-600 hover:rounded-lg'>
             Home
