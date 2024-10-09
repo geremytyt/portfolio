@@ -6,7 +6,6 @@ import Navigation from "./components/navigation";
   return (
     <div>
       <Navigation />
-      test
     </div>
   );
  }
