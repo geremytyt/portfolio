@@ -6,7 +6,7 @@ import Navigation from "./components/navigation";
   return (
     <div>
       <Navigation />
-      pls1
+      pls2
     </div>
   );
  }
