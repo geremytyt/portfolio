@@ -99,7 +99,7 @@ function Navigation() {
             </li>
 
             <li onClick={handleClose} className='border-b-2 border-zinc-300 w-full'>
-              Services
+              Wot
             </li>
           </ul>
 
