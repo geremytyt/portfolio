@@ -31,9 +31,7 @@ function Navigation() {
         <li className='cursor-pointer relative group hover:bg-white hover:text-green-600 hover:rounded-lg'>
             Contact Us
         </li>
-        <li className='cursor-pointer relative group hover:bg-white hover:text-green-600 hover:rounded-lg'>
-            Wotttt
-        </li>
+        
       </ul>
     </div>
         <div className='hidden md:flex pr-4'>
@@ -98,9 +96,7 @@ function Navigation() {
               Contact Us
             </li>
 
-            <li onClick={handleClose} className='border-b-2 border-zinc-300 w-full'>
-              Wot
-            </li>
+            
           </ul>
 
     </div>
