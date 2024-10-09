@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://github.com/geremytyt.github.io/portfolio.git",
+  "homepage": "https://geremytyt.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.6",
