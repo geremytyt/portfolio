@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/geremytyt/portfolio.git/static/css/main.ac0d4fa6.css",
+    "main.js": "/geremytyt/portfolio.git/static/js/main.9f724fe3.js",
+    "index.html": "/geremytyt/portfolio.git/index.html",
+    "main.ac0d4fa6.css.map": "/geremytyt/portfolio.git/static/css/main.ac0d4fa6.css.map",
+    "main.9f724fe3.js.map": "/geremytyt/portfolio.git/static/js/main.9f724fe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac0d4fa6.css",
+    "static/js/main.9f724fe3.js"
+  ]
+}
