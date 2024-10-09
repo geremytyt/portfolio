@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "copyfiles -u 1 build/**/* ./ && git add . && git commit -m 'Update build' && git push origin master"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
