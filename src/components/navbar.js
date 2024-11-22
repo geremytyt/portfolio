@@ -64,13 +64,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="p-4">
-            <Link to="/resume" className={`${linkStyle("/resume")} text-lg sm:text-xl`}>
-              Resume
+            <Link to="/skills" className={`${linkStyle("/skills")} text-lg sm:text-xl`}>
+              Skills
             </Link>
           </li>
           <li className="p-4">
-            <Link to="/skills" className={`${linkStyle("/skills")} text-lg sm:text-xl`}>
-              Skills
+            <Link to="/resume" className={`${linkStyle("/resume")} text-lg sm:text-xl`}>
+              Work
             </Link>
           </li>
           <li className="p-4">
@@ -134,20 +134,20 @@ const Navbar = () => {
             </li>
             <li className="p-4">
               <Link
-                to="/resume"
-                onClick={handleNav}
-                className="text-black font-bold text-xl hover:text-gray-700"
-              >
-                Resume
-              </Link>
-            </li>
-            <li className="p-4">
-              <Link
                 to="/skills"
                 onClick={handleNav}
                 className="text-black font-bold text-xl hover:text-gray-700"
               >
                 Skills
+              </Link>
+            </li>
+            <li className="p-4">
+              <Link
+                to="/resume"
+                onClick={handleNav}
+                className="text-black font-bold text-xl hover:text-gray-700"
+              >
+                Work
               </Link>
             </li>
             <li className="p-4">

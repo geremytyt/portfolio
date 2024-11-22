@@ -16,8 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<AboutMe />} />
-        <Route path="/resume" element={<ResumeDownload />} />
         <Route path="/skills" element={<Cards />} />
+        <Route path="/resume" element={<ResumeDownload />} />
         {/* Redirect all unknown paths to home page */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
