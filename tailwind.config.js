@@ -21,7 +21,13 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     },
-    
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
+        mono: ['Source Code Pro', 'monospace'],
+      },
+    },
   },
   variants: {},
   plugins: [],
