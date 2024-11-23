@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <div
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${
-        isScrolled
+        isScrolled || nav
           ? "bg-white shadow-lg h-16 backdrop-blur-sm bg-opacity-90"
           : "bg-transparent h-24"
       } w-full`}
@@ -48,7 +48,7 @@ const Navbar = () => {
         {/* GT Container */}
         <h1
           className={`font-bold ${
-            isScrolled ? "text-black" : "text-white"
+            isScrolled || nav ? "text-black" : "text-white"
           } hover:text-gray-600 transition-all duration-300 ${
             isScrolled ? "text-3xl sm:text-4xl" : "text-4xl sm:text-5xl"
           }`}
@@ -85,29 +85,19 @@ const Navbar = () => {
           <AiOutlineMenu
             size={24}
             className={`transition-colors duration-300 ${
-              isScrolled ? "text-black" : "text-white"
+              isScrolled || nav ? "text-black" : "text-white"
             } hover:text-gray-500`}
           />
         </div>
 
         {/* Mobile Navigation */}
         <div
-          className={`fixed inset-0 transition-transform duration-500 ease-in-out transform ${
+          className={`fixed left-0 top-0 w-full h-screen bg-white transition-transform duration-500 ease-in-out transform ${
             nav ? "translate-x-0" : "-translate-x-full"
-          } md:hidden ${
-            isScrolled ? "bg-white bg-opacity-90 backdrop-blur-sm" : "bg-white"
-          }`}
+          } md:hidden`}
         >
-          <div
-            className={`flex items-center justify-between px-4 py-6 ${
-              isScrolled ? "h-16" : "h-24"
-            } transition-all duration-300`}
-          >
-            <h1
-              className={`font-bold ${
-                isScrolled ? "text-black" : "text-black"
-              } ${isScrolled ? "text-3xl" : "text-4xl"} transition-all duration-300`}
-            >
+          <div className="bg-white h-16 flex items-center justify-between px-4">
+            <h1 className="font-bold text-black text-3xl">
               <Link to="/" onClick={handleNav}>
                 GT
               </Link>
@@ -116,14 +106,11 @@ const Navbar = () => {
               onClick={handleNav}
               className="hover:text-gray-700 transition-colors duration-300 bg-transparent border-none p-0"
             >
-              <AiOutlineMenu
-                size={28}
-                className={`${isScrolled ? "text-black" : "text-black"}`}
-              />
+              <AiOutlineMenu size={28} className="text-black" />
             </button>
           </div>
-          <ul className="flex flex-col">
-            <li className="p-4">
+          <ul className="flex flex-col bg-white">
+            <li className="p-4 border-b border-gray-100">
               <Link
                 to="/about"
                 onClick={handleNav}
@@ -132,7 +119,7 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 border-b border-gray-100">
               <Link
                 to="/skills"
                 onClick={handleNav}
@@ -141,7 +128,7 @@ const Navbar = () => {
                 Skills
               </Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 border-b border-gray-100">
               <Link
                 to="/resume"
                 onClick={handleNav}
@@ -150,7 +137,7 @@ const Navbar = () => {
                 Work
               </Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 border-b border-gray-100">
               <Link
                 to="/project"
                 onClick={handleNav}
