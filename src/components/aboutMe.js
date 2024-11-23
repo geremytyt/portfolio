@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className="max-w-6xl mx-auto mt-10">
         
         <div className="text-center mb-8">
-          <h1 className="text-[70px] md:text-[200px] font-bold tracking-wider">
+          <h1 className="text-[65px] md:text-[200px] font-bold tracking-wider">
             ABOUT
           </h1>
           <div className="h-[2px] bg-white w-full max-w-7xl mx-auto"></div>
@@ -26,7 +26,7 @@ const AboutMe = () => {
                 className="float-left mr-6 mb-6 max-h-[300px] rounded-lg bg-orange-200"
               />
               <p className="text-lg">
-                I am a fresh graduate software engineer with a passion in
+                Hi, I am a fresh graduate software engineer with a passion in
                 full-stack development. I am excited to embrace new challenges
                 and contribute to innovative solutions in the tech industry.
               </p>
