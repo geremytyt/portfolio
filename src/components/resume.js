@@ -34,7 +34,7 @@ const ResumePreview = () => {
       {/* Timeline */}
       <div className="max-w-6xl mx-auto mt-10 px-4 md:px-0">
         <div className="text-center mb-8 text-white p-6">
-          <h1 className="text-[80px] md:text-[200px] font-bold tracking-wider">
+          <h1 className="text-[70px] md:text-[200px] font-bold tracking-wider">
             WORK
           </h1>
           <div className="h-[2px] bg-white w-full max-w-7xl mx-auto"></div>

@@ -31,8 +31,8 @@ const Project = () => {
         <div className="bg-[#151414] text-white p-6">
             <div className="max-w-6xl mx-auto mt-10">
                 <div className="text-center mb-8">
-                    <h1 className="text-[80px] md:text-[200px] font-bold tracking-wider">
-                        PROJECTS
+                    <h1 className="text-[70px] md:text-[200px] font-bold tracking-wider">
+                        PROJECT
                     </h1>
                     <div className="h-[2px] bg-white w-full max-w-7xl mx-auto"></div>
                 </div>
