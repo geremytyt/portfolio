@@ -6,6 +6,7 @@ import AboutMe from "./components/aboutMe";
 import Footer from "./components/footer";
 import Cards from "./components/card";
 import ResumeDownload from "./components/resume";
+import Project from "./components/project";
 import ScrollToTop from './components/scrollToTop';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<AboutMe />} />
         <Route path="/skills" element={<Cards />} />
         <Route path="/resume" element={<ResumeDownload />} />
+        <Route path="/project" element = {<Project/>}/>
         {/* Redirect all unknown paths to home page */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

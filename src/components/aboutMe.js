@@ -43,9 +43,7 @@ const AboutMe = () => {
                 Outside of work, I love playing and watching sports, with football
                 holding a special place in my heart. As a die-hard Manchester
                 United fan, I've had my fair share of highs and lows—more lows
-                recently, but I'm loyal to the end! One of my most memorable
-                experiences was definitely visiting Old Trafford and watching a
-                match live last November.
+                recently, but I'm loyal to the end! 
               </p>
               <p className="text-lg mt-4">
                 I also love exploring new places, experiencing different cultures,

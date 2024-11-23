@@ -74,7 +74,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="p-4">
-            <Link to="/projects" className={`${linkStyle("/projects")} text-lg sm:text-xl`}>
+            <Link to="/project" className={`${linkStyle("/project")} text-lg sm:text-xl`}>
               Projects
             </Link>
           </li>
@@ -152,7 +152,7 @@ const Navbar = () => {
             </li>
             <li className="p-4">
               <Link
-                to="/projects"
+                to="/project"
                 onClick={handleNav}
                 className="text-black font-bold text-xl hover:text-gray-700"
               >
