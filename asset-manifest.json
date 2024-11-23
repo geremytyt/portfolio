@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ac0d4fa6.css",
-    "main.js": "/portfolio/static/js/main.a081e610.js",
+    "main.css": "/portfolio/static/css/main.d0e88764.css",
+    "main.js": "/portfolio/static/js/main.66992eee.js",
+    "static/media/Geremy Tan_Resume.jpg": "/portfolio/static/media/Geremy Tan_Resume.7f8a363a24d90d2c5a10.jpg",
+    "static/media/pic8.jpg": "/portfolio/static/media/pic8.9c45cd4148db7abef5f9.jpg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.9cb1f01ebafd47d46ba8.png",
+    "static/media/heroPic.jpeg": "/portfolio/static/media/heroPic.bfc4a765371444202c3e.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.ac0d4fa6.css.map": "/portfolio/static/css/main.ac0d4fa6.css.map",
-    "main.a081e610.js.map": "/portfolio/static/js/main.a081e610.js.map"
+    "main.d0e88764.css.map": "/portfolio/static/css/main.d0e88764.css.map",
+    "main.66992eee.js.map": "/portfolio/static/js/main.66992eee.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac0d4fa6.css",
-    "static/js/main.a081e610.js"
+    "static/css/main.d0e88764.css",
+    "static/js/main.66992eee.js"
   ]
 }
