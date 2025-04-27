@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../components/footer";
+import Footer from "./footer";
 import pic1 from "../assets/projectPics/portfolio.png";
 
 const projects = [

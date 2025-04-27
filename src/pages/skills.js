@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Globe, Server, Wrench } from "lucide-react";
-import Footer from "../components/footer";
+import Footer from "./footer";
 import { List, ListItem } from "@mui/material";
 
-const Cards = () => {
+const Skills = () => {
   const [visibleCards, setVisibleCards] = useState([false, false, false]);
 
   const skills = [
@@ -94,7 +94,6 @@ const Cards = () => {
           >
             <Globe className="w-20 h-20 mx-auto bg-gray-200 " />
             {renderSkills([skills[0]])}
-
           </div>
 
           {/* Backend Skills Card */}
@@ -130,4 +129,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default Skills;

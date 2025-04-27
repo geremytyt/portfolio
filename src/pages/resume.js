@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FileDown } from "lucide-react";
 import resume from '../assets/resume/Geremy Tan_Resume.jpg';
-import Footer from "../components/footer";
+import Footer from "./footer";
 
 const ResumePreview = () => {
   const [visibleItems, setVisibleItems] = useState([false, false]);
