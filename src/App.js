@@ -25,7 +25,6 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/resume" element={<ResumeDownload />} />
         <Route path="/project" element={<Project />} />
-        {/* Redirect all unknown paths to home page */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       {/* <Footer /> */}
