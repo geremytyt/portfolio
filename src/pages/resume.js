@@ -11,7 +11,7 @@ const ResumePreview = () => {
       role: "Software Engineer",
       date: "DEC 2024 - Current",
       desc: [
-        "Developed and maintained web applications using React.js for front-end and Node.js (JavaScript/TypeScript) for back-end.",
+        "Developed and maintained web applications using React.js, Node.js, JavaScript/TypeScript.",
         "Utilized SQL and DBeaver for database design and querying",
         "Designed and implemented GraphQL APIs for data fetching",
         "Identified, debugged, and resolved application issue",
@@ -31,7 +31,7 @@ const ResumePreview = () => {
       ],
     },
     {
-      title: " Sophic Automation Sdn Bhd",
+      title: "Sophic Automation Sdn Bhd",
       role: "Software Engineer Intern",
       date: "OCT 2021 - JAN 2022",
       desc: [

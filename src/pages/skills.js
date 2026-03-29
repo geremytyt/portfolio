@@ -11,6 +11,7 @@ const Skills = () => {
       title: "Frontend",
       skills: [
         "JavaScript",
+        "TypeScript",
         "HTML",
         "CSS",
         "React.js",
@@ -36,6 +37,7 @@ const Skills = () => {
         "MongoDB",
         "DBeaver",
         "GraphQL",
+        "AI Tools",
       ],
     },
   ];
